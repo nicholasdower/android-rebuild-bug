@@ -1,0 +1,796 @@
+Connected to daemon DaemonInfo{pid=56734, address=[54f9c175-f3b0-4ef0-8a58-a77f5e0eb970 port:65459, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], idle=true, context=DefaultDaemonContext[uid=3386b40e-b8d7-493e-ab31-9d618bf152e3,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home,daemonRegistryDir=/Users/nickd/.gradle/daemon,pid=56734,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]}. Dispatching request Build{id=ca6dd077-6d37-4f6d-98a8-0f3a9c863ba3.1, currentDir=/Users/nickd/Development/android-rebuild-bug}.
+Received result org.gradle.launcher.daemon.protocol.BuildStarted@79defdc from daemon DaemonInfo{pid=56734, address=[54f9c175-f3b0-4ef0-8a58-a77f5e0eb970 port:65459, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], idle=true, context=DefaultDaemonContext[uid=3386b40e-b8d7-493e-ab31-9d618bf152e3,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home,daemonRegistryDir=/Users/nickd/.gradle/daemon,pid=56734,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} (build should be starting).
+The client will now receive all logging from the daemon (pid: 56734). The daemon log file: /Users/nickd/.gradle/daemon/2.13/daemon-56734.out.log
+Starting 2nd build in daemon [uptime: 28.815 secs, performance: 97%, memory: 40% of 954.7 MB]
+Executing build with daemon context: DefaultDaemonContext[uid=3386b40e-b8d7-493e-ab31-9d618bf152e3,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home,daemonRegistryDir=/Users/nickd/.gradle/daemon,pid=56734,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Starting Build
+Settings evaluated using settings file '/Users/nickd/Development/android-rebuild-bug/settings.gradle'.
+Projects loaded. Root project using build file '/Users/nickd/Development/android-rebuild-bug/build.gradle'.
+Included projects: [root project 'android-rebuild-bug', project ':library1', project ':library2']
+Parallel execution with configuration on demand is an incubating feature.
+Evaluating root project 'android-rebuild-bug' using build file '/Users/nickd/Development/android-rebuild-bug/build.gradle'.
+Evaluating project ':library1' using build file '/Users/nickd/Development/android-rebuild-bug/library1/build.gradle'.
+Creating configuration compile
+Creating configuration publish
+Creating configuration provided
+Creating configuration wearApp
+Creating configuration androidTestCompile
+Creating configuration androidTestPublish
+Creating configuration androidTestProvided
+Creating configuration androidTestWearApp
+Creating configuration testCompile
+Creating configuration testPublish
+Creating configuration testProvided
+Creating configuration testWearApp
+Creating configuration debugCompile
+Creating configuration debugPublish
+Creating configuration debugProvided
+Creating configuration debugWearApp
+Creating configuration testDebugCompile
+Creating configuration testDebugPublish
+Creating configuration testDebugProvided
+Creating configuration testDebugWearApp
+Creating configuration releaseCompile
+Creating configuration releasePublish
+Creating configuration releaseProvided
+Creating configuration releaseWearApp
+Creating configuration testReleaseCompile
+Creating configuration testReleasePublish
+Creating configuration testReleaseProvided
+Creating configuration testReleaseWearApp
+Parsing the SDK, no caching allowed
+Parsing /Users/nickd/android-sdk/add-ons/addon-google_apis-google-21/package.xml
+Parsing /Users/nickd/android-sdk/add-ons/addon-google_apis-google-22/package.xml
+Parsing /Users/nickd/android-sdk/build-tools/21.1.1/package.xml
+Parsing /Users/nickd/android-sdk/build-tools/21.1.2/package.xml
+Parsing /Users/nickd/android-sdk/build-tools/22.0.1/package.xml
+Parsing /Users/nickd/android-sdk/build-tools/23.0.1/package.xml
+Parsing /Users/nickd/android-sdk/build-tools/23.0.2/package.xml
+Parsing /Users/nickd/android-sdk/build-tools/23.0.3/package.xml
+Parsing /Users/nickd/android-sdk/docs/package.xml
+Parsing /Users/nickd/android-sdk/extras/android/m2repository/package.xml
+Parsing /Users/nickd/android-sdk/extras/android/support/package.xml
+Parsing /Users/nickd/android-sdk/extras/google/google_play_services/package.xml
+Parsing /Users/nickd/android-sdk/extras/google/m2repository/package.xml
+Parsing /Users/nickd/android-sdk/extras/intel/Hardware_Accelerated_Execution_Manager/package.xml
+Parsing /Users/nickd/android-sdk/platform-tools/package.xml
+Parsing /Users/nickd/android-sdk/platforms/android-21/package.xml
+Parsing /Users/nickd/android-sdk/platforms/android-22/package.xml
+Parsing /Users/nickd/android-sdk/platforms/android-23/package.xml
+Parsing /Users/nickd/android-sdk/samples/android-21/package.xml
+Parsing /Users/nickd/android-sdk/samples/android-22/package.xml
+Parsing /Users/nickd/android-sdk/samples/android-23/package.xml
+Parsing /Users/nickd/android-sdk/sources/android-21/package.xml
+Parsing /Users/nickd/android-sdk/sources/android-22/package.xml
+Parsing /Users/nickd/android-sdk/sources/android-23/package.xml
+Parsing /Users/nickd/android-sdk/system-images/android-23/google_apis/armeabi-v7a/package.xml
+Parsing /Users/nickd/android-sdk/system-images/android-23/google_apis/x86_64/package.xml
+Parsing /Users/nickd/android-sdk/tools/package.xml
+Evaluating project ':library2' using build file '/Users/nickd/Development/android-rebuild-bug/library2/build.gradle'.
+Creating configuration compile
+Creating configuration publish
+Creating configuration provided
+Creating configuration wearApp
+Creating configuration androidTestCompile
+Creating configuration androidTestPublish
+Creating configuration androidTestProvided
+Creating configuration androidTestWearApp
+Creating configuration testCompile
+Creating configuration testPublish
+Creating configuration testProvided
+Creating configuration testWearApp
+Creating configuration debugCompile
+Creating configuration debugPublish
+Creating configuration debugProvided
+Creating configuration debugWearApp
+Creating configuration testDebugCompile
+Creating configuration testDebugPublish
+Creating configuration testDebugProvided
+Creating configuration testDebugWearApp
+Creating configuration releaseCompile
+Creating configuration releasePublish
+Creating configuration releaseProvided
+Creating configuration releaseWearApp
+Creating configuration testReleaseCompile
+Creating configuration testReleasePublish
+Creating configuration testReleaseProvided
+Creating configuration testReleaseWearApp
+Parsing the SDK, no caching allowed
+Not using incremental javac compilation.
+Incremental java compilation is an incubating feature.
+Not using incremental javac compilation.
+Not using incremental javac compilation.
+Not using incremental javac compilation.
+Not using incremental javac compilation.
+Not using incremental javac compilation.
+Not using incremental javac compilation.
+Not using incremental javac compilation.
+Not using incremental javac compilation.
+Not using incremental javac compilation.
+Selected primary task 'assembleDebug' from project :
+All projects evaluated.
+Tasks to be executed: [task ':library1:preBuild', task ':library1:preDebugBuild', task ':library1:compileDebugNdk', task ':library1:compileLint', task ':library1:copyDebugLint', task ':library1:mergeDebugProguardFiles', task ':library1:packageDebugRenderscript', task ':library1:checkDebugManifest', task ':library1:preDebugAndroidTestBuild', task ':library1:preDebugUnitTestBuild', task ':library1:preReleaseBuild', task ':library1:preReleaseUnitTestBuild', task ':library2:preBuild', task ':library2:preReleaseBuild', task ':library2:compileReleaseNdk', task ':library2:compileLint', task ':library2:copyReleaseLint', task ':library2:mergeReleaseProguardFiles', task ':library2:packageReleaseRenderscript', task ':library2:checkReleaseManifest', task ':library2:prepareReleaseDependencies', task ':library2:compileReleaseRenderscript', task ':library2:generateReleaseResValues', task ':library2:generateReleaseResources', task ':library2:packageReleaseResources', task ':library2:compileReleaseAidl', task ':library2:generateReleaseBuildConfig', task ':library2:mergeReleaseShaders', task ':library2:compileReleaseShaders', task ':library2:generateReleaseAssets', task ':library2:mergeReleaseAssets', task ':library2:processReleaseManifest', task ':library2:processReleaseResources', task ':library2:generateReleaseSources', task ':library2:incrementalReleaseJavaCompilationSafeguard', task ':library2:compileReleaseJavaWithJavac', task ':library2:processReleaseJavaRes', task ':library2:transformResourcesWithMergeJavaResForRelease', task ':library2:transformClassesAndResourcesWithSyncLibJarsForRelease', task ':library2:mergeReleaseJniLibFolders', task ':library2:transformNative_libsWithMergeJniLibsForRelease', task ':library2:transformNative_libsWithSyncJniLibsForRelease', task ':library2:bundleRelease', task ':library1:prepareAndroidRebuildBugLibrary2UnspecifiedLibrary', task ':library1:prepareDebugDependencies', task ':library1:compileDebugRenderscript', task ':library1:generateDebugResValues', task ':library1:generateDebugResources', task ':library1:packageDebugResources', task ':library1:compileDebugAidl', task ':library1:generateDebugBuildConfig', task ':library1:mergeDebugShaders', task ':library1:compileDebugShaders', task ':library1:generateDebugAssets', task ':library1:mergeDebugAssets', task ':library1:mergeDebugResources', task ':library1:processDebugManifest', task ':library1:processDebugResources', task ':library1:generateDebugSources', task ':library1:incrementalDebugJavaCompilationSafeguard', task ':library1:compileDebugJavaWithJavac', task ':library1:processDebugJavaRes', task ':library1:transformResourcesWithMergeJavaResForDebug', task ':library1:transformClassesAndResourcesWithSyncLibJarsForDebug', task ':library1:mergeDebugJniLibFolders', task ':library1:transformNative_libsWithMergeJniLibsForDebug', task ':library1:transformNative_libsWithSyncJniLibsForDebug', task ':library1:bundleDebug', task ':library1:compileDebugSources', task ':library1:assembleDebug', task ':library2:preDebugBuild', task ':library2:compileDebugNdk', task ':library2:copyDebugLint', task ':library2:mergeDebugProguardFiles', task ':library2:packageDebugRenderscript', task ':library2:checkDebugManifest', task ':library2:prepareDebugDependencies', task ':library2:compileDebugRenderscript', task ':library2:generateDebugResValues', task ':library2:generateDebugResources', task ':library2:packageDebugResources', task ':library2:compileDebugAidl', task ':library2:generateDebugBuildConfig', task ':library2:mergeDebugShaders', task ':library2:compileDebugShaders', task ':library2:generateDebugAssets', task ':library2:mergeDebugAssets', task ':library2:processDebugManifest', task ':library2:processDebugResources', task ':library2:generateDebugSources', task ':library2:incrementalDebugJavaCompilationSafeguard', task ':library2:compileDebugJavaWithJavac', task ':library2:processDebugJavaRes', task ':library2:transformResourcesWithMergeJavaResForDebug', task ':library2:transformClassesAndResourcesWithSyncLibJarsForDebug', task ':library2:mergeDebugJniLibFolders', task ':library2:transformNative_libsWithMergeJniLibsForDebug', task ':library2:transformNative_libsWithSyncJniLibsForDebug', task ':library2:bundleDebug', task ':library2:compileDebugSources', task ':library2:assembleDebug']
+In-memory cache of /Users/nickd/Development/android-rebuild-bug/.gradle/2.13/taskArtifacts/fileHashes.bin: Size{0}, CacheStats{hitCount=0, missCount=0, loadSuccessCount=0, loadExceptionCount=0, totalLoadTime=0, evictionCount=0}
+In-memory cache of /Users/nickd/Development/android-rebuild-bug/.gradle/2.13/taskArtifacts/fileSnapshots.bin: Size{0}, CacheStats{hitCount=0, missCount=0, loadSuccessCount=0, loadExceptionCount=0, totalLoadTime=0, evictionCount=0}
+In-memory cache of /Users/nickd/Development/android-rebuild-bug/.gradle/2.13/taskArtifacts/taskArtifacts.bin: Size{0}, CacheStats{hitCount=0, missCount=0, loadSuccessCount=0, loadExceptionCount=0, totalLoadTime=0, evictionCount=0}
+Using 4 parallel executor threads
+:library1:preBuild (Thread[Task worker,5,main]) started.
+:library1:preBuild
+:library2:preBuild (Thread[Task worker Thread 3,5,main]) started.
+:library2:preBuild
+Skipping task ':library2:preBuild' as it has no actions.
+:library2:preBuild UP-TO-DATE
+Skipping task ':library1:preBuild' as it has no actions.
+:library1:preBuild UP-TO-DATE
+:library1:preBuild (Thread[Task worker,5,main]) completed. Took 0.002 secs.
+:library1:preDebugBuild (Thread[Task worker,5,main]) started.
+:library1:preDebugBuild
+Skipping task ':library1:preDebugBuild' as it has no actions.
+:library1:preDebugBuild UP-TO-DATE
+:library1:preDebugBuild (Thread[Task worker,5,main]) completed. Took 0.0 secs.
+:library1:compileDebugNdk (Thread[Task worker,5,main]) started.
+:library1:compileDebugNdk
+Skipping task ':library1:compileDebugNdk' as it has no source files.
+:library1:compileDebugNdk UP-TO-DATE
+:library1:compileDebugNdk (Thread[Task worker,5,main]) completed. Took 0.001 secs.
+:library1:compileLint (Thread[Task worker,5,main]) started.
+:library1:compileLint
+Executing task ':library1:compileLint' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:library2:preBuild (Thread[Task worker Thread 3,5,main]) completed. Took 0.008 secs.
+:library2:preReleaseBuild (Thread[Task worker Thread 3,5,main]) started.
+:library2:preReleaseBuild
+Skipping task ':library2:preReleaseBuild' as it has no actions.
+:library2:preReleaseBuild UP-TO-DATE
+:library2:preReleaseBuild (Thread[Task worker Thread 3,5,main]) completed. Took 0.0 secs.
+:library2:compileReleaseNdk (Thread[Task worker Thread 3,5,main]) started.
+:library2:compileReleaseNdk
+Skipping task ':library2:compileReleaseNdk' as it has no source files.
+:library2:compileReleaseNdk UP-TO-DATE
+:library2:compileReleaseNdk (Thread[Task worker Thread 3,5,main]) completed. Took 0.003 secs.
+:library2:compileLint (Thread[Task worker Thread 3,5,main]) started.
+:library2:compileLint
+Executing task ':library2:compileLint' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:library2:compileLint (Thread[Task worker Thread 3,5,main]) completed. Took 0.001 secs.
+:library2:copyReleaseLint (Thread[Task worker Thread 3,5,main]) started.
+:library2:copyReleaseLint
+Skipping task ':library2:copyReleaseLint' as it has no source files.
+:library2:copyReleaseLint UP-TO-DATE
+:library2:copyReleaseLint (Thread[Task worker Thread 3,5,main]) completed. Took 0.0 secs.
+:library2:mergeReleaseProguardFiles (Thread[Task worker Thread 3,5,main]) started.
+:library2:mergeReleaseProguardFiles
+:library1:compileLint (Thread[Task worker,5,main]) completed. Took 0.01 secs.
+Invalidating in-memory cache of /Users/nickd/Development/android-rebuild-bug/.gradle/2.13/taskArtifacts/fileHashes.bin
+Invalidating in-memory cache of /Users/nickd/Development/android-rebuild-bug/.gradle/2.13/taskArtifacts/taskArtifacts.bin
+Invalidating in-memory cache of /Users/nickd/Development/android-rebuild-bug/.gradle/2.13/taskArtifacts/fileSnapshots.bin
+:library1:copyDebugLint (Thread[Task worker,5,main]) started.
+:library1:copyDebugLint
+Skipping task ':library1:copyDebugLint' as it has no source files.
+:library1:copyDebugLint UP-TO-DATE
+:library1:copyDebugLint (Thread[Task worker,5,main]) completed. Took 0.001 secs.
+:library1:mergeDebugProguardFiles (Thread[Task worker,5,main]) started.
+:library1:mergeDebugProguardFiles
+Skipping task ':library1:mergeDebugProguardFiles' as it is up-to-date (took 0.022 secs).
+:library1:mergeDebugProguardFiles UP-TO-DATE
+Skipping task ':library2:mergeReleaseProguardFiles' as it is up-to-date (took 0.028 secs).
+:library1:mergeDebugProguardFiles (Thread[Task worker,5,main]) completed. Took 0.023 secs.
+:library2:mergeReleaseProguardFiles UP-TO-DATE
+:library1:packageDebugRenderscript (Thread[Task worker,5,main]) started.
+:library1:packageDebugRenderscript
+Skipping task ':library1:packageDebugRenderscript' as it has no source files.
+:library1:packageDebugRenderscript UP-TO-DATE
+:library2:mergeReleaseProguardFiles (Thread[Task worker Thread 3,5,main]) completed. Took 0.03 secs.
+:library2:packageReleaseRenderscript (Thread[Task worker Thread 2,5,main]) started.
+:library2:packageReleaseRenderscript
+:library1:packageDebugRenderscript (Thread[Task worker,5,main]) completed. Took 0.002 secs.
+:library1:checkDebugManifest (Thread[Task worker,5,main]) started.
+Skipping task ':library2:packageReleaseRenderscript' as it has no source files.
+:library2:packageReleaseRenderscript UP-TO-DATE
+:library2:packageReleaseRenderscript (Thread[Task worker Thread 2,5,main]) completed. Took 0.006 secs.
+:library2:checkReleaseManifest (Thread[Task worker Thread 2,5,main]) started.
+:library1:checkDebugManifest
+Executing task ':library1:checkDebugManifest' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:library2:checkReleaseManifest
+Executing task ':library2:checkReleaseManifest' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:library2:checkReleaseManifest (Thread[Task worker Thread 2,5,main]) completed. Took 0.002 secs.
+:library1:preDebugAndroidTestBuild (Thread[Task worker Thread 2,5,main]) started.
+:library1:preDebugAndroidTestBuild
+Skipping task ':library1:preDebugAndroidTestBuild' as it has no actions.
+:library1:preDebugAndroidTestBuild UP-TO-DATE
+:library1:preDebugAndroidTestBuild (Thread[Task worker Thread 2,5,main]) completed. Took 0.0 secs.
+:library1:preDebugUnitTestBuild (Thread[Task worker Thread 2,5,main]) started.
+:library1:preDebugUnitTestBuild
+Skipping task ':library1:preDebugUnitTestBuild' as it has no actions.
+:library1:preDebugUnitTestBuild UP-TO-DATE
+:library1:preDebugUnitTestBuild (Thread[Task worker Thread 2,5,main]) completed. Took 0.0 secs.
+:library1:preReleaseBuild (Thread[Task worker Thread 2,5,main]) started.
+:library1:preReleaseBuild
+Skipping task ':library1:preReleaseBuild' as it has no actions.
+:library1:preReleaseBuild UP-TO-DATE
+:library1:preReleaseBuild (Thread[Task worker Thread 2,5,main]) completed. Took 0.001 secs.
+:library1:preReleaseUnitTestBuild (Thread[Task worker Thread 2,5,main]) started.
+:library1:preReleaseUnitTestBuild
+Skipping task ':library1:preReleaseUnitTestBuild' as it has no actions.
+:library1:preReleaseUnitTestBuild UP-TO-DATE
+:library1:preReleaseUnitTestBuild (Thread[Task worker Thread 2,5,main]) completed. Took 0.0 secs.
+:library2:prepareReleaseDependencies (Thread[Task worker Thread 2,5,main]) started.
+:library2:prepareReleaseDependencies
+Executing task ':library2:prepareReleaseDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:library1:checkDebugManifest (Thread[Task worker,5,main]) completed. Took 0.007 secs.
+:library1:generateDebugResValues (Thread[Daemon worker,5,main]) started.
+:library1:generateDebugResValues
+:library2:prepareReleaseDependencies (Thread[Task worker Thread 2,5,main]) completed. Took 0.006 secs.
+:library2:compileReleaseRenderscript (Thread[Task worker Thread 3,5,main]) started.
+:library2:compileReleaseRenderscript
+Executing task ':library2:compileReleaseRenderscript' (up-to-date check took 0.006 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/generated/res/rs/release has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/generated/source/rs/release has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/rs/release/obj has changed.
+Skipping task ':library1:generateDebugResValues' as it is up-to-date (took 0.006 secs).
+:library1:generateDebugResValues UP-TO-DATE
+:library1:generateDebugResValues (Thread[Daemon worker,5,main]) completed. Took 0.035 secs.
+:library1:generateDebugBuildConfig (Thread[Daemon worker,5,main]) started.
+:library1:generateDebugBuildConfig
+Executing task ':library1:generateDebugBuildConfig' (up-to-date check took 0.004 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/generated/source/buildConfig/debug has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/generated/source/buildConfig/debug/com/squareup/helloworld has been removed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/generated/source/buildConfig/debug/com/squareup has been removed.
+:library2:compileReleaseRenderscript (Thread[Task worker Thread 3,5,main]) completed. Took 0.118 secs.
+:library2:generateReleaseResValues (Thread[Task worker,5,main]) started.
+:library2:generateReleaseResValues
+:library1:generateDebugBuildConfig (Thread[Daemon worker,5,main]) completed. Took 0.102 secs.
+:library1:mergeDebugShaders (Thread[Task worker Thread 2,5,main]) started.
+:library1:mergeDebugShaders
+Skipping task ':library2:generateReleaseResValues' as it is up-to-date (took 0.006 secs).
+:library2:generateReleaseResValues UP-TO-DATE
+Executing task ':library1:mergeDebugShaders' (up-to-date check took 0.001 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/incremental/mergeDebugShaders has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/shaders/debug has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/incremental/mergeDebugShaders/merger.xml has been removed.
+:library2:generateReleaseResValues (Thread[Task worker,5,main]) completed. Took 0.007 secs.
+:library2:generateReleaseResources (Thread[Task worker,5,main]) started.
+:library2:generateReleaseResources
+Skipping task ':library2:generateReleaseResources' as it has no actions.
+:library2:generateReleaseResources (Thread[Task worker,5,main]) completed. Took 0.002 secs.
+:library2:packageReleaseResources (Thread[Task worker,5,main]) started.
+:library2:packageReleaseResources
+All input files are considered out-of-date for incremental task ':library1:mergeDebugShaders'.
+Unable do incremental execution: full task run
+Executing task ':library2:packageReleaseResources' (up-to-date check took 0.004 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/release/res has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental/packageReleaseResources has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/release/res/values/values.xml has been removed.
+All input files are considered out-of-date for incremental task ':library2:packageReleaseResources'.
+Unable do incremental execution: full task run
+:library1:mergeDebugShaders (Thread[Task worker Thread 2,5,main]) completed. Took 0.039 secs.
+:library1:compileDebugShaders (Thread[Task worker Thread 2,5,main]) started.
+:library1:compileDebugShaders
+Executing task ':library1:compileDebugShaders' (up-to-date check took 0.005 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/generated/assets/shaders/debug has changed.
+:library1:compileDebugShaders (Thread[Task worker Thread 2,5,main]) completed. Took 0.021 secs.
+:library1:generateDebugAssets (Thread[Task worker Thread 2,5,main]) started.
+:library1:generateDebugAssets
+Skipping task ':library1:generateDebugAssets' as it has no actions.
+:library1:generateDebugAssets (Thread[Task worker Thread 2,5,main]) completed. Took 0.0 secs.
+:library1:incrementalDebugJavaCompilationSafeguard (Thread[Task worker Thread 2,5,main]) started.
+:library1:incrementalDebugJavaCompilationSafeguard
+file or directory '/Users/nickd/Development/android-rebuild-bug/library1/build/generated/source/r/debug', not found
+file or directory '/Users/nickd/Development/android-rebuild-bug/library1/build/generated/source/r/debug', not found
+file or directory '/Users/nickd/Development/android-rebuild-bug/library1/build/generated/source/aidl/debug', not found
+file or directory '/Users/nickd/Development/android-rebuild-bug/library1/build/generated/source/rs/debug', not found
+Executing task ':library1:incrementalDebugJavaCompilationSafeguard' (up-to-date check took 0.003 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/incremental-safeguard/debug has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/incremental-safeguard/debug/tag.txt has been removed.
+All input files are considered out-of-date for incremental task ':library1:incrementalDebugJavaCompilationSafeguard'.
+QueuedCruncher is using /Users/nickd/android-sdk/build-tools/23.0.3/aapt
+:library1:incrementalDebugJavaCompilationSafeguard (Thread[Task worker Thread 2,5,main]) completed. Took 0.011 secs.
+:library1:processDebugJavaRes (Thread[Task worker Thread 2,5,main]) started.
+:library1:processDebugJavaRes
+Skipping task ':library1:processDebugJavaRes' as it has no source files.
+:library1:processDebugJavaRes UP-TO-DATE
+:library1:processDebugJavaRes (Thread[Task worker Thread 2,5,main]) completed. Took 0.001 secs.
+:library1:transformResourcesWithMergeJavaResForDebug (Thread[Task worker Thread 2,5,main]) started.
+:library1:transformResourcesWithMergeJavaResForDebug
+Executing task ':library1:transformResourcesWithMergeJavaResForDebug' (up-to-date check took 0.002 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/transforms/mergeJavaRes/debug has changed.
+All input files are considered out-of-date for incremental task ':library1:transformResourcesWithMergeJavaResForDebug'.
+:library1:transformResourcesWithMergeJavaResForDebug (Thread[Task worker Thread 2,5,main]) completed. Took 0.022 secs.
+:library2:packageReleaseResources (Thread[Task worker,5,main]) completed. Took 0.095 secs.
+:library2:compileReleaseAidl (Thread[Task worker Thread 2,5,main]) started.
+:library2:compileReleaseAidl
+Executing task ':library2:compileReleaseAidl' (up-to-date check took 0.002 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/generated/source/aidl/release has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental/compileReleaseAidl has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/release/aidl has changed.
+All input files are considered out-of-date for incremental task ':library2:compileReleaseAidl'.
+:library2:compileReleaseAidl (Thread[Task worker Thread 2,5,main]) completed. Took 0.015 secs.
+:library2:generateReleaseBuildConfig (Thread[Task worker,5,main]) started.
+:library2:generateReleaseBuildConfig
+Executing task ':library2:generateReleaseBuildConfig' (up-to-date check took 0.003 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/generated/source/buildConfig/release has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/generated/source/buildConfig/release/com/squareup/helloworld/library2/BuildConfig.java has been removed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/generated/source/buildConfig/release/com has been removed.
+:library2:generateReleaseBuildConfig (Thread[Task worker,5,main]) completed. Took 0.014 secs.
+:library2:mergeReleaseShaders (Thread[Task worker,5,main]) started.
+:library2:mergeReleaseShaders
+Executing task ':library2:mergeReleaseShaders' (up-to-date check took 0.001 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/shaders/release has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental/mergeReleaseShaders has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental/mergeReleaseShaders/merger.xml has been removed.
+All input files are considered out-of-date for incremental task ':library2:mergeReleaseShaders'.
+Unable do incremental execution: full task run
+:library2:mergeReleaseShaders (Thread[Task worker,5,main]) completed. Took 0.008 secs.
+:library2:compileReleaseShaders (Thread[Task worker Thread 3,5,main]) started.
+:library2:compileReleaseShaders
+Executing task ':library2:compileReleaseShaders' (up-to-date check took 0.002 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/generated/assets/shaders/release has changed.
+:library2:compileReleaseShaders (Thread[Task worker Thread 3,5,main]) completed. Took 0.009 secs.
+:library2:generateReleaseAssets (Thread[Task worker Thread 3,5,main]) started.
+:library2:generateReleaseAssets
+Skipping task ':library2:generateReleaseAssets' as it has no actions.
+:library2:generateReleaseAssets (Thread[Task worker Thread 3,5,main]) completed. Took 0.001 secs.
+:library2:mergeReleaseAssets (Thread[Task worker Thread 3,5,main]) started.
+:library2:mergeReleaseAssets
+Executing task ':library2:mergeReleaseAssets' (up-to-date check took 0.002 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental/mergeReleaseAssets has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/release/assets has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental/mergeReleaseAssets/merger.xml has been removed.
+All input files are considered out-of-date for incremental task ':library2:mergeReleaseAssets'.
+Unable do incremental execution: full task run
+:library2:mergeReleaseAssets (Thread[Task worker Thread 3,5,main]) completed. Took 0.012 secs.
+:library2:processReleaseManifest (Thread[Task worker Thread 3,5,main]) started.
+:library2:processReleaseManifest
+Executing task ':library2:processReleaseManifest' (up-to-date check took 0.004 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/release/AndroidManifest.xml has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/release/aapt/AndroidManifest.xml has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/release/AndroidManifest.xml has been removed.
+All input files are considered out-of-date for incremental task ':library2:processReleaseManifest'.
+Merging main manifest /Users/nickd/Development/android-rebuild-bug/library2/src/main/AndroidManifest.xml
+
+Merging result:SUCCESS
+Merged manifest saved to /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/release/AndroidManifest.xml
+:library2:processReleaseManifest (Thread[Task worker Thread 3,5,main]) completed. Took 0.08 secs.
+:library2:processReleaseResources (Thread[Task worker Thread 3,5,main]) started.
+:library2:processReleaseResources
+Executing task ':library2:processReleaseResources' (up-to-date check took 0.009 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/generated/source/r/release has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/release/R.txt has been removed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/generated/source/r/release/com/squareup has been removed.
+All input files are considered out-of-date for incremental task ':library2:processReleaseResources'.
+Starting process 'command '/Users/nickd/android-sdk/build-tools/23.0.3/aapt''. Working directory: /Users/nickd/Development/android-rebuild-bug/library2 Command: /Users/nickd/android-sdk/build-tools/23.0.3/aapt package -f --no-crunch -I /Users/nickd/android-sdk/platforms/android-23/android.jar -M /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/release/aapt/AndroidManifest.xml -S /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/release/res -A /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/release/assets -m -J /Users/nickd/Development/android-rebuild-bug/library2/build/generated/source/r/release --custom-package com.squareup.helloworld.library2 --non-constant-id -0 apk --output-text-symbols /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/release --no-version-vectors
+Successfully started process 'command '/Users/nickd/android-sdk/build-tools/23.0.3/aapt''
+:library2:processReleaseResources (Thread[Task worker Thread 3,5,main]) completed. Took 0.094 secs.
+:library2:generateReleaseSources (Thread[Task worker Thread 2,5,main]) started.
+:library2:generateReleaseSources
+Skipping task ':library2:generateReleaseSources' as it has no actions.
+:library2:generateReleaseSources (Thread[Task worker Thread 2,5,main]) completed. Took 0.001 secs.
+:library2:incrementalReleaseJavaCompilationSafeguard (Thread[Task worker,5,main]) started.
+:library2:incrementalReleaseJavaCompilationSafeguard
+Executing task ':library2:incrementalReleaseJavaCompilationSafeguard' (up-to-date check took 0.002 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental-safeguard/release has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental-safeguard/release/tag.txt has been removed.
+All input files are considered out-of-date for incremental task ':library2:incrementalReleaseJavaCompilationSafeguard'.
+:library2:incrementalReleaseJavaCompilationSafeguard (Thread[Task worker,5,main]) completed. Took 0.008 secs.
+:library2:compileReleaseJavaWithJavac (Thread[Task worker,5,main]) started.
+:library2:compileReleaseJavaWithJavac
+file or directory '/Users/nickd/Development/android-rebuild-bug/library2/src/main/java', not found
+file or directory '/Users/nickd/Development/android-rebuild-bug/library2/src/release/java', not found
+file or directory '/Users/nickd/Development/android-rebuild-bug/library2/src/main/java', not found
+file or directory '/Users/nickd/Development/android-rebuild-bug/library2/src/release/java', not found
+Executing task ':library2:compileReleaseJavaWithJavac' (up-to-date check took 0.007 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/classes/release has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/dependency-cache/release has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/classes/release/com has been removed.
+All input files are considered out-of-date for incremental task ':library2:compileReleaseJavaWithJavac'.
+Compiling with source level 1.7 and target level 1.7.
+file or directory '/Users/nickd/Development/android-rebuild-bug/library2/src/main/java', not found
+file or directory '/Users/nickd/Development/android-rebuild-bug/library2/src/release/java', not found
+Compiling with JDK Java compiler API.
+:library2:compileReleaseJavaWithJavac (Thread[Task worker,5,main]) completed. Took 0.42 secs.
+:library2:processReleaseJavaRes (Thread[Task worker Thread 3,5,main]) started.
+:library2:processReleaseJavaRes
+Skipping task ':library2:processReleaseJavaRes' as it has no source files.
+:library2:processReleaseJavaRes UP-TO-DATE
+:library2:processReleaseJavaRes (Thread[Task worker Thread 3,5,main]) completed. Took 0.002 secs.
+:library2:transformResourcesWithMergeJavaResForRelease (Thread[Daemon worker,5,main]) started.
+:library2:transformResourcesWithMergeJavaResForRelease
+Executing task ':library2:transformResourcesWithMergeJavaResForRelease' (up-to-date check took 0.003 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/transforms/mergeJavaRes/release has changed.
+All input files are considered out-of-date for incremental task ':library2:transformResourcesWithMergeJavaResForRelease'.
+:library2:transformResourcesWithMergeJavaResForRelease (Thread[Daemon worker,5,main]) completed. Took 0.007 secs.
+:library2:transformClassesAndResourcesWithSyncLibJarsForRelease (Thread[Task worker Thread 2,5,main]) started.
+:library2:transformClassesAndResourcesWithSyncLibJarsForRelease
+Executing task ':library2:transformClassesAndResourcesWithSyncLibJarsForRelease' (up-to-date check took 0.003 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/release/libs has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/release/classes.jar has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/release/classes.jar has been removed.
+All input files are considered out-of-date for incremental task ':library2:transformClassesAndResourcesWithSyncLibJarsForRelease'.
+:library2:transformClassesAndResourcesWithSyncLibJarsForRelease (Thread[Task worker Thread 2,5,main]) completed. Took 0.017 secs.
+:library2:mergeReleaseJniLibFolders (Thread[Task worker Thread 2,5,main]) started.
+:library2:mergeReleaseJniLibFolders
+Executing task ':library2:mergeReleaseJniLibFolders' (up-to-date check took 0.001 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/jniLibs/release has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental/mergeReleaseJniLibFolders has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml has been removed.
+All input files are considered out-of-date for incremental task ':library2:mergeReleaseJniLibFolders'.
+Unable do incremental execution: full task run
+:library2:mergeReleaseJniLibFolders (Thread[Task worker Thread 2,5,main]) completed. Took 0.01 secs.
+:library2:transformNative_libsWithMergeJniLibsForRelease (Thread[Task worker Thread 2,5,main]) started.
+:library2:transformNative_libsWithMergeJniLibsForRelease
+Executing task ':library2:transformNative_libsWithMergeJniLibsForRelease' (up-to-date check took 0.002 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/transforms/mergeJniLibs/release has changed.
+All input files are considered out-of-date for incremental task ':library2:transformNative_libsWithMergeJniLibsForRelease'.
+:library2:transformNative_libsWithSyncJniLibsForRelease (Thread[Task worker,5,main]) started.
+:library2:transformNative_libsWithSyncJniLibsForRelease
+:library2:transformNative_libsWithMergeJniLibsForRelease (Thread[Task worker Thread 2,5,main]) completed. Took 0.01 secs.
+Executing task ':library2:transformNative_libsWithSyncJniLibsForRelease' (up-to-date check took 0.002 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/release/jni has changed.
+All input files are considered out-of-date for incremental task ':library2:transformNative_libsWithSyncJniLibsForRelease'.
+:library2:transformNative_libsWithSyncJniLibsForRelease (Thread[Task worker,5,main]) completed. Took 0.008 secs.
+:library2:bundleRelease (Thread[Task worker,5,main]) started.
+:library2:bundleRelease
+Executing task ':library2:bundleRelease' (up-to-date check took 0.002 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/outputs/aar/library2-release.aar has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/outputs/aar/library2-release.aar has been removed.
+:library2:bundleRelease (Thread[Task worker,5,main]) completed. Took 0.058 secs.
+:library1:prepareAndroidRebuildBugLibrary2UnspecifiedLibrary (Thread[Task worker Thread 2,5,main]) started.
+:library1:prepareAndroidRebuildBugLibrary2UnspecifiedLibrary
+:library2:preDebugBuild (Thread[Task worker,5,main]) started.
+:library2:preDebugBuild
+Skipping task ':library2:preDebugBuild' as it has no actions.
+:library2:preDebugBuild UP-TO-DATE
+:library2:preDebugBuild (Thread[Task worker,5,main]) completed. Took 0.0 secs.
+:library2:compileDebugNdk (Thread[Task worker,5,main]) started.
+:library2:compileDebugNdk
+Executing task ':library1:prepareAndroidRebuildBugLibrary2UnspecifiedLibrary' (up-to-date check took 0.002 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/exploded-aar/android-rebuild-bug/library2/unspecified has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/exploded-aar/android-rebuild-bug/library2/unspecified/R.txt has been removed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/exploded-aar/android-rebuild-bug/library2/unspecified/aapt has been removed.
+Skipping task ':library2:compileDebugNdk' as it has no source files.
+:library2:compileDebugNdk UP-TO-DATE
+:library2:compileDebugNdk (Thread[Task worker,5,main]) completed. Took 0.002 secs.
+:library2:copyDebugLint (Thread[Task worker,5,main]) started.
+:library2:copyDebugLint
+Skipping task ':library2:copyDebugLint' as it has no source files.
+:library2:copyDebugLint UP-TO-DATE
+:library2:copyDebugLint (Thread[Task worker,5,main]) completed. Took 0.001 secs.
+:library2:mergeDebugProguardFiles (Thread[Task worker,5,main]) started.
+:library2:mergeDebugProguardFiles
+Skipping task ':library2:mergeDebugProguardFiles' as it is up-to-date (took 0.002 secs).
+:library2:mergeDebugProguardFiles UP-TO-DATE
+:library2:mergeDebugProguardFiles (Thread[Task worker,5,main]) completed. Took 0.002 secs.
+:library2:packageDebugRenderscript (Thread[Daemon worker,5,main]) started.
+:library2:packageDebugRenderscript
+Skipping task ':library2:packageDebugRenderscript' as it has no source files.
+:library2:packageDebugRenderscript UP-TO-DATE
+:library2:packageDebugRenderscript (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:library2:checkDebugManifest (Thread[Daemon worker,5,main]) started.
+:library2:checkDebugManifest
+Executing task ':library2:checkDebugManifest' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:library2:checkDebugManifest (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:library2:prepareDebugDependencies (Thread[Task worker Thread 3,5,main]) started.
+:library2:prepareDebugDependencies
+Executing task ':library2:prepareDebugDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:library2:prepareDebugDependencies (Thread[Task worker Thread 3,5,main]) completed. Took 0.001 secs.
+:library2:compileDebugRenderscript (Thread[Task worker,5,main]) started.
+:library2:compileDebugRenderscript
+Executing task ':library2:compileDebugRenderscript' (up-to-date check took 0.003 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/rs/debug/lib has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/generated/res/rs/debug has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/rs/debug/obj has changed.
+:library2:compileDebugRenderscript (Thread[Task worker,5,main]) completed. Took 0.016 secs.
+:library2:generateDebugResValues (Thread[Daemon worker,5,main]) started.
+:library2:generateDebugResValues
+Skipping task ':library2:generateDebugResValues' as it is up-to-date (took 0.001 secs).
+:library2:generateDebugResValues UP-TO-DATE
+:library2:generateDebugResValues (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:library2:generateDebugResources (Thread[Daemon worker,5,main]) started.
+:library2:generateDebugResources
+Skipping task ':library2:generateDebugResources' as it has no actions.
+:library2:generateDebugResources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:library2:packageDebugResources (Thread[Daemon worker,5,main]) started.
+:library2:packageDebugResources
+Executing task ':library2:packageDebugResources' (up-to-date check took 0.003 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental/packageDebugResources has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/debug/res has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/debug/res/values has been removed.
+All input files are considered out-of-date for incremental task ':library2:packageDebugResources'.
+Unable do incremental execution: full task run
+:library1:prepareAndroidRebuildBugLibrary2UnspecifiedLibrary (Thread[Task worker Thread 2,5,main]) completed. Took 0.043 secs.
+:library1:prepareDebugDependencies (Thread[Task worker,5,main]) started.
+:library1:prepareDebugDependencies
+Executing task ':library1:prepareDebugDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+QueuedCruncher is using /Users/nickd/android-sdk/build-tools/23.0.3/aapt
+:library1:prepareDebugDependencies (Thread[Task worker,5,main]) completed. Took 0.001 secs.
+:library1:compileDebugRenderscript (Thread[Task worker,5,main]) started.
+:library1:compileDebugRenderscript
+:library2:packageDebugResources (Thread[Daemon worker,5,main]) completed. Took 0.017 secs.
+Executing task ':library1:compileDebugRenderscript' (up-to-date check took 0.004 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/generated/source/rs/debug has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/rs/debug/lib has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/rs/debug/obj has changed.
+:library2:compileDebugAidl (Thread[Task worker Thread 3,5,main]) started.
+:library2:compileDebugAidl
+Executing task ':library2:compileDebugAidl' (up-to-date check took 0.001 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/generated/source/aidl/debug has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/debug/aidl has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental/compileDebugAidl has changed.
+All input files are considered out-of-date for incremental task ':library2:compileDebugAidl'.
+:library2:compileDebugAidl (Thread[Task worker Thread 3,5,main]) completed. Took 0.009 secs.
+:library2:generateDebugBuildConfig (Thread[Task worker Thread 2,5,main]) started.
+:library2:generateDebugBuildConfig
+:library1:compileDebugRenderscript (Thread[Task worker,5,main]) completed. Took 0.016 secs.
+:library1:generateDebugResources (Thread[Daemon worker,5,main]) started.
+:library1:generateDebugResources
+Skipping task ':library1:generateDebugResources' as it has no actions.
+:library1:generateDebugResources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:library1:packageDebugResources (Thread[Daemon worker,5,main]) started.
+:library1:packageDebugResources
+Executing task ':library1:packageDebugResources' (up-to-date check took 0.002 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/incremental/packageDebugResources has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/bundles/debug/res has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/incremental/packageDebugResources/merger.xml has been removed.
+Executing task ':library2:generateDebugBuildConfig' (up-to-date check took 0.003 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/generated/source/buildConfig/debug has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/generated/source/buildConfig/debug/com/squareup/helloworld has been removed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/generated/source/buildConfig/debug/com/squareup/helloworld/library2/BuildConfig.java has been removed.
+All input files are considered out-of-date for incremental task ':library1:packageDebugResources'.
+Unable do incremental execution: full task run
+QueuedCruncher is using /Users/nickd/android-sdk/build-tools/23.0.3/aapt
+:library2:generateDebugBuildConfig (Thread[Task worker Thread 2,5,main]) completed. Took 0.014 secs.
+:library2:mergeDebugShaders (Thread[Task worker Thread 3,5,main]) started.
+:library2:mergeDebugShaders
+:library1:packageDebugResources (Thread[Daemon worker,5,main]) completed. Took 0.014 secs.
+Executing task ':library2:mergeDebugShaders' (up-to-date check took 0.002 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/shaders/debug has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental/mergeDebugShaders has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental/mergeDebugShaders/merger.xml has been removed.
+:library1:compileDebugAidl (Thread[Daemon worker,5,main]) started.
+:library1:compileDebugAidl
+All input files are considered out-of-date for incremental task ':library2:mergeDebugShaders'.
+Unable do incremental execution: full task run
+Executing task ':library1:compileDebugAidl' (up-to-date check took 0.002 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/incremental/compileDebugAidl has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/bundles/debug/aidl has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/generated/source/aidl/debug has changed.
+All input files are considered out-of-date for incremental task ':library1:compileDebugAidl'.
+:library2:mergeDebugShaders (Thread[Task worker Thread 3,5,main]) completed. Took 0.01 secs.
+:library2:compileDebugShaders (Thread[Task worker Thread 3,5,main]) started.
+:library2:compileDebugShaders
+:library1:compileDebugAidl (Thread[Daemon worker,5,main]) completed. Took 0.011 secs.
+:library1:mergeDebugAssets (Thread[Task worker,5,main]) started.
+:library1:mergeDebugAssets
+Executing task ':library2:compileDebugShaders' (up-to-date check took 0.006 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/generated/assets/shaders/debug has changed.
+:library2:compileDebugShaders (Thread[Task worker Thread 3,5,main]) completed. Took 0.009 secs.
+Executing task ':library1:mergeDebugAssets' (up-to-date check took 0.003 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/incremental/mergeDebugAssets has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/bundles/debug/assets has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/incremental/mergeDebugAssets/merger.xml has been removed.
+:library2:generateDebugAssets (Thread[Task worker Thread 3,5,main]) started.
+:library2:generateDebugAssets
+Skipping task ':library2:generateDebugAssets' as it has no actions.
+:library2:generateDebugAssets (Thread[Task worker Thread 3,5,main]) completed. Took 0.0 secs.
+All input files are considered out-of-date for incremental task ':library1:mergeDebugAssets'.
+:library2:mergeDebugAssets (Thread[Task worker Thread 3,5,main]) started.
+Unable do incremental execution: full task run
+:library2:mergeDebugAssets
+Executing task ':library2:mergeDebugAssets' (up-to-date check took 0.001 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/debug/assets has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental/mergeDebugAssets has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental/mergeDebugAssets/merger.xml has been removed.
+All input files are considered out-of-date for incremental task ':library2:mergeDebugAssets'.
+Unable do incremental execution: full task run
+:library1:mergeDebugAssets (Thread[Task worker,5,main]) completed. Took 0.011 secs.
+:library1:mergeDebugResources (Thread[Task worker Thread 2,5,main]) started.
+:library1:mergeDebugResources
+:library2:mergeDebugAssets (Thread[Task worker Thread 3,5,main]) completed. Took 0.01 secs.
+Executing task ':library1:mergeDebugResources' (up-to-date check took 0.003 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/res/merged/debug has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/incremental/mergeDebugResources has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/blame/res/debug has changed.
+:library2:processDebugManifest (Thread[Daemon worker,5,main]) started.
+:library2:processDebugManifest
+All input files are considered out-of-date for incremental task ':library1:mergeDebugResources'.
+Unable do incremental execution: full task run
+Executing task ':library2:processDebugManifest' (up-to-date check took 0.003 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/debug/AndroidManifest.xml has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/debug/aapt/AndroidManifest.xml has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/debug/AndroidManifest.xml has been removed.
+All input files are considered out-of-date for incremental task ':library2:processDebugManifest'.
+QueuedCruncher is using /Users/nickd/android-sdk/build-tools/23.0.3/aapt
+Merging main manifest /Users/nickd/Development/android-rebuild-bug/library2/src/main/AndroidManifest.xml
+
+Merging result:SUCCESS
+Merged manifest saved to /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/debug/AndroidManifest.xml
+:library2:processDebugManifest (Thread[Daemon worker,5,main]) completed. Took 0.042 secs.
+:library2:processDebugResources (Thread[Daemon worker,5,main]) started.
+:library2:processDebugResources
+Executing task ':library2:processDebugResources' (up-to-date check took 0.007 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/generated/source/r/debug has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/generated/source/r/debug/com has been removed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/generated/source/r/debug/com/squareup/helloworld has been removed.
+All input files are considered out-of-date for incremental task ':library2:processDebugResources'.
+Starting process 'command '/Users/nickd/android-sdk/build-tools/23.0.3/aapt''. Working directory: /Users/nickd/Development/android-rebuild-bug/library2 Command: /Users/nickd/android-sdk/build-tools/23.0.3/aapt package -f --no-crunch -I /Users/nickd/android-sdk/platforms/android-23/android.jar -M /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/debug/aapt/AndroidManifest.xml -S /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/debug/res -A /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/debug/assets -m -J /Users/nickd/Development/android-rebuild-bug/library2/build/generated/source/r/debug --debug-mode --custom-package com.squareup.helloworld.library2 --non-constant-id -0 apk --output-text-symbols /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/debug --no-version-vectors
+Successfully started process 'command '/Users/nickd/android-sdk/build-tools/23.0.3/aapt''
+:library1:mergeDebugResources (Thread[Task worker Thread 2,5,main]) completed. Took 0.078 secs.
+:library1:processDebugManifest (Thread[Task worker,5,main]) started.
+:library1:processDebugManifest
+Executing task ':library1:processDebugManifest' (up-to-date check took 0.001 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/bundles/debug/aapt/AndroidManifest.xml has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/bundles/debug/AndroidManifest.xml has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/bundles/debug/aapt/AndroidManifest.xml has been removed.
+All input files are considered out-of-date for incremental task ':library1:processDebugManifest'.
+Merging main manifest /Users/nickd/Development/android-rebuild-bug/library1/src/main/AndroidManifest.xml
+
+Merging result:SUCCESS
+Merged manifest saved to /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/bundles/debug/AndroidManifest.xml
+:library1:processDebugManifest (Thread[Task worker,5,main]) completed. Took 0.011 secs.
+:library1:processDebugResources (Thread[Task worker,5,main]) started.
+:library1:processDebugResources
+:library2:processDebugResources (Thread[Daemon worker,5,main]) completed. Took 0.048 secs.
+:library2:generateDebugSources (Thread[Task worker Thread 3,5,main]) started.
+:library2:generateDebugSources
+Skipping task ':library2:generateDebugSources' as it has no actions.
+:library2:generateDebugSources (Thread[Task worker Thread 3,5,main]) completed. Took 0.0 secs.
+:library2:incrementalDebugJavaCompilationSafeguard (Thread[Task worker Thread 3,5,main]) started.
+:library2:incrementalDebugJavaCompilationSafeguard
+Executing task ':library1:processDebugResources' (up-to-date check took 0.006 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/generated/source/r/debug has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/generated/source/r/debug/com/squareup/helloworld/library1/R.java has been removed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/generated/source/r/debug/com has been removed.
+All input files are considered out-of-date for incremental task ':library1:processDebugResources'.
+Executing task ':library2:incrementalDebugJavaCompilationSafeguard' (up-to-date check took 0.003 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental-safeguard/debug has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental-safeguard/debug/tag.txt has been removed.
+All input files are considered out-of-date for incremental task ':library2:incrementalDebugJavaCompilationSafeguard'.
+Starting process 'command '/Users/nickd/android-sdk/build-tools/23.0.3/aapt''. Working directory: /Users/nickd/Development/android-rebuild-bug/library1 Command: /Users/nickd/android-sdk/build-tools/23.0.3/aapt package -f --no-crunch -I /Users/nickd/android-sdk/platforms/android-23/android.jar -M /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/bundles/debug/aapt/AndroidManifest.xml -S /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/res/merged/debug -A /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/bundles/debug/assets -m -J /Users/nickd/Development/android-rebuild-bug/library1/build/generated/source/r/debug --debug-mode --custom-package com.squareup.helloworld.library1 --non-constant-id -0 apk --output-text-symbols /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/bundles/debug --no-version-vectors
+:library2:incrementalDebugJavaCompilationSafeguard (Thread[Task worker Thread 3,5,main]) completed. Took 0.009 secs.
+:library2:compileDebugJavaWithJavac (Thread[Task worker Thread 3,5,main]) started.
+:library2:compileDebugJavaWithJavac
+file or directory '/Users/nickd/Development/android-rebuild-bug/library2/src/main/java', not found
+file or directory '/Users/nickd/Development/android-rebuild-bug/library2/src/debug/java', not found
+Successfully started process 'command '/Users/nickd/android-sdk/build-tools/23.0.3/aapt''
+file or directory '/Users/nickd/Development/android-rebuild-bug/library2/src/main/java', not found
+file or directory '/Users/nickd/Development/android-rebuild-bug/library2/src/debug/java', not found
+Executing task ':library2:compileDebugJavaWithJavac' (up-to-date check took 0.005 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/dependency-cache/debug has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/classes/debug has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/classes/debug/com has been removed.
+All input files are considered out-of-date for incremental task ':library2:compileDebugJavaWithJavac'.
+Compiling with source level 1.7 and target level 1.7.
+file or directory '/Users/nickd/Development/android-rebuild-bug/library2/src/main/java', not found
+file or directory '/Users/nickd/Development/android-rebuild-bug/library2/src/debug/java', not found
+Compiling with JDK Java compiler API.
+:library1:processDebugResources (Thread[Task worker,5,main]) completed. Took 0.066 secs.
+:library1:generateDebugSources (Thread[Task worker,5,main]) started.
+:library1:generateDebugSources
+Skipping task ':library1:generateDebugSources' as it has no actions.
+:library1:generateDebugSources (Thread[Task worker,5,main]) completed. Took 0.0 secs.
+:library1:compileDebugJavaWithJavac (Thread[Task worker,5,main]) started.
+:library1:compileDebugJavaWithJavac
+file or directory '/Users/nickd/Development/android-rebuild-bug/library1/src/main/java', not found
+file or directory '/Users/nickd/Development/android-rebuild-bug/library1/src/debug/java', not found
+file or directory '/Users/nickd/Development/android-rebuild-bug/library1/src/main/java', not found
+file or directory '/Users/nickd/Development/android-rebuild-bug/library1/src/debug/java', not found
+:library2:compileDebugJavaWithJavac (Thread[Task worker Thread 3,5,main]) completed. Took 0.061 secs.
+:library2:processDebugJavaRes (Thread[Task worker Thread 3,5,main]) started.
+:library2:processDebugJavaRes
+Skipping task ':library2:processDebugJavaRes' as it has no source files.
+:library2:processDebugJavaRes UP-TO-DATE
+:library2:processDebugJavaRes (Thread[Task worker Thread 3,5,main]) completed. Took 0.001 secs.
+:library2:transformResourcesWithMergeJavaResForDebug (Thread[Task worker Thread 3,5,main]) started.
+:library2:transformResourcesWithMergeJavaResForDebug
+Executing task ':library2:transformResourcesWithMergeJavaResForDebug' (up-to-date check took 0.001 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/transforms/mergeJavaRes/debug has changed.
+All input files are considered out-of-date for incremental task ':library2:transformResourcesWithMergeJavaResForDebug'.
+:library2:transformResourcesWithMergeJavaResForDebug (Thread[Task worker Thread 3,5,main]) completed. Took 0.008 secs.
+:library2:transformClassesAndResourcesWithSyncLibJarsForDebug (Thread[Task worker Thread 3,5,main]) started.
+:library2:transformClassesAndResourcesWithSyncLibJarsForDebug
+Executing task ':library1:compileDebugJavaWithJavac' (up-to-date check took 0.024 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/dependency-cache/debug has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/classes/debug has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/classes/debug/com/squareup/helloworld/library1/R$attr.class has been removed.
+All input files are considered out-of-date for incremental task ':library1:compileDebugJavaWithJavac'.
+Compiling with source level 1.7 and target level 1.7.
+file or directory '/Users/nickd/Development/android-rebuild-bug/library1/src/main/java', not found
+file or directory '/Users/nickd/Development/android-rebuild-bug/library1/src/debug/java', not found
+Executing task ':library2:transformClassesAndResourcesWithSyncLibJarsForDebug' (up-to-date check took 0.008 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/debug/classes.jar has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/debug/libs has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/debug/classes.jar has been removed.
+All input files are considered out-of-date for incremental task ':library2:transformClassesAndResourcesWithSyncLibJarsForDebug'.
+Compiling with JDK Java compiler API.
+:library2:transformClassesAndResourcesWithSyncLibJarsForDebug (Thread[Task worker Thread 3,5,main]) completed. Took 0.022 secs.
+:library2:mergeDebugJniLibFolders (Thread[Task worker Thread 3,5,main]) started.
+:library2:mergeDebugJniLibFolders
+Executing task ':library2:mergeDebugJniLibFolders' (up-to-date check took 0.001 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental/mergeDebugJniLibFolders has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/jniLibs/debug has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml has been removed.
+All input files are considered out-of-date for incremental task ':library2:mergeDebugJniLibFolders'.
+Unable do incremental execution: full task run
+:library2:mergeDebugJniLibFolders (Thread[Task worker Thread 3,5,main]) completed. Took 0.014 secs.
+:library2:transformNative_libsWithMergeJniLibsForDebug (Thread[Task worker Thread 3,5,main]) started.
+:library2:transformNative_libsWithMergeJniLibsForDebug
+Executing task ':library2:transformNative_libsWithMergeJniLibsForDebug' (up-to-date check took 0.002 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/transforms/mergeJniLibs/debug has changed.
+All input files are considered out-of-date for incremental task ':library2:transformNative_libsWithMergeJniLibsForDebug'.
+:library2:transformNative_libsWithMergeJniLibsForDebug (Thread[Task worker Thread 3,5,main]) completed. Took 0.006 secs.
+:library2:transformNative_libsWithSyncJniLibsForDebug (Thread[Task worker Thread 3,5,main]) started.
+:library2:transformNative_libsWithSyncJniLibsForDebug
+Executing task ':library2:transformNative_libsWithSyncJniLibsForDebug' (up-to-date check took 0.001 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/intermediates/bundles/debug/jni has changed.
+All input files are considered out-of-date for incremental task ':library2:transformNative_libsWithSyncJniLibsForDebug'.
+:library2:transformNative_libsWithSyncJniLibsForDebug (Thread[Task worker Thread 3,5,main]) completed. Took 0.005 secs.
+:library2:bundleDebug (Thread[Task worker Thread 3,5,main]) started.
+:library2:bundleDebug
+Executing task ':library2:bundleDebug' (up-to-date check took 0.002 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/outputs/aar/library2-debug.aar has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library2/build/outputs/aar/library2-debug.aar has been removed.
+:library2:bundleDebug (Thread[Task worker Thread 3,5,main]) completed. Took 0.01 secs.
+:library2:compileDebugSources (Thread[Task worker Thread 3,5,main]) started.
+:library2:compileDebugSources
+Skipping task ':library2:compileDebugSources' as it has no actions.
+:library2:compileDebugSources (Thread[Task worker Thread 3,5,main]) completed. Took 0.001 secs.
+:library2:assembleDebug (Thread[Task worker Thread 2,5,main]) started.
+:library2:assembleDebug
+Skipping task ':library2:assembleDebug' as it has no actions.
+:library2:assembleDebug (Thread[Task worker Thread 2,5,main]) completed. Took 0.001 secs.
+:library1:compileDebugJavaWithJavac (Thread[Task worker,5,main]) completed. Took 0.089 secs.
+:library1:transformClassesAndResourcesWithSyncLibJarsForDebug (Thread[Task worker,5,main]) started.
+:library1:transformClassesAndResourcesWithSyncLibJarsForDebug
+Executing task ':library1:transformClassesAndResourcesWithSyncLibJarsForDebug' (up-to-date check took 0.002 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/bundles/debug/libs has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/bundles/debug/classes.jar has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/bundles/debug/classes.jar has been removed.
+All input files are considered out-of-date for incremental task ':library1:transformClassesAndResourcesWithSyncLibJarsForDebug'.
+:library1:transformClassesAndResourcesWithSyncLibJarsForDebug (Thread[Task worker,5,main]) completed. Took 0.007 secs.
+:library1:mergeDebugJniLibFolders (Thread[Daemon worker,5,main]) started.
+:library1:mergeDebugJniLibFolders
+Executing task ':library1:mergeDebugJniLibFolders' (up-to-date check took 0.001 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/jniLibs/debug has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/incremental/mergeDebugJniLibFolders has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml has been removed.
+All input files are considered out-of-date for incremental task ':library1:mergeDebugJniLibFolders'.
+Unable do incremental execution: full task run
+:library1:mergeDebugJniLibFolders (Thread[Daemon worker,5,main]) completed. Took 0.008 secs.
+:library1:transformNative_libsWithMergeJniLibsForDebug (Thread[Daemon worker,5,main]) started.
+:library1:transformNative_libsWithMergeJniLibsForDebug
+Executing task ':library1:transformNative_libsWithMergeJniLibsForDebug' (up-to-date check took 0.002 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/transforms/mergeJniLibs/debug has changed.
+All input files are considered out-of-date for incremental task ':library1:transformNative_libsWithMergeJniLibsForDebug'.
+:library1:transformNative_libsWithMergeJniLibsForDebug (Thread[Daemon worker,5,main]) completed. Took 0.007 secs.
+:library1:transformNative_libsWithSyncJniLibsForDebug (Thread[Daemon worker,5,main]) started.
+:library1:transformNative_libsWithSyncJniLibsForDebug
+Executing task ':library1:transformNative_libsWithSyncJniLibsForDebug' (up-to-date check took 0.001 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/intermediates/bundles/debug/jni has changed.
+All input files are considered out-of-date for incremental task ':library1:transformNative_libsWithSyncJniLibsForDebug'.
+:library1:transformNative_libsWithSyncJniLibsForDebug (Thread[Daemon worker,5,main]) completed. Took 0.005 secs.
+:library1:bundleDebug (Thread[Daemon worker,5,main]) started.
+:library1:bundleDebug
+Executing task ':library1:bundleDebug' (up-to-date check took 0.002 secs) due to:
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/outputs/aar/library1-debug.aar has changed.
+  Output file /Users/nickd/Development/android-rebuild-bug/library1/build/outputs/aar/library1-debug.aar has been removed.
+:library1:bundleDebug (Thread[Daemon worker,5,main]) completed. Took 0.01 secs.
+:library1:compileDebugSources (Thread[Daemon worker,5,main]) started.
+:library1:compileDebugSources
+Skipping task ':library1:compileDebugSources' as it has no actions.
+:library1:compileDebugSources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:library1:assembleDebug (Thread[Daemon worker,5,main]) started.
+:library1:assembleDebug
+Skipping task ':library1:assembleDebug' as it has no actions.
+:library1:assembleDebug (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+
+BUILD SUCCESSFUL
+
+Total time: 3.053 secs
+Stopped 0 compiler daemon(s).
+Received result Success[value=null] from daemon DaemonInfo{pid=56734, address=[54f9c175-f3b0-4ef0-8a58-a77f5e0eb970 port:65459, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], idle=true, context=DefaultDaemonContext[uid=3386b40e-b8d7-493e-ab31-9d618bf152e3,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home,daemonRegistryDir=/Users/nickd/.gradle/daemon,pid=56734,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} (build should be done).
